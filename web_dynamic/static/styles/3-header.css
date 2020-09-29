@@ -7,3 +7,16 @@ header {
     background-position: 20px center;
     flex-shrink: 0;
 }
+
+#api_status {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #cccccc;
+    display: block;
+    margin: 1em 1em 0 auto;
+}
+
+#api_status.available {
+    background-color: #ff545f;
+}
